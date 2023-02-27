@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EDEDED;
+}
+
+img {
+    max-width: 100%;
+}
+
+.toparea {
+
+    text-align: center;
+    background-color: red;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.lessismore {
+    float: left;
+    font-size: large;
+}
+
+.darkmode {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.copyright {
+    float: right;
+}
+
+.vincentsamuelsson-area{
+    background-color: blue;
+    border: 1px solid; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* temp flytta texten i center av bilden eller sätter vi ihop den med kaffe logan och sedan trycker texten `? */
+/* .htmltextrightside{
+    display: flex;
+    justify-content: center;
+} */
+
+.texthtml {
+writing-mode: vertical-rl;
+float:right;
+}
+
+.bokaonline {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.greyframe__inner{
+
+}
+
+.footer{
+    
+}
+
+/* här börjar det jag har kopierat in */
+
+:root {
+    --section-gap: 8rem;
+    --section-gap-inner: calc( var(--section-gap) * 0.75 );
+    --gap-xl: 4rem;
+    --gap-l: 3rem;
+    --gap-m: 2rem;
+    --gap-s: 1rem;
+    --border-radius: 0px;
+    --color-dark: #222;
+    --color-dark-200: #444;
+    --color-dark-300: #666;
+    --color-dark-500: #888;
+    --color-dark-600: #999;
+    --color-dark-700: #b5b5b5;
+    --color-dark-800: #d5d5d5;
+    --color-dark-900: #f1f1f1;
+    --color-accent: #009fbb;
+    --color-accent-200: #009fbb;
+    --color-accent-300: #009fbb;
+    --color-accent-400: #009fbb;
+    --color-accent-500: #009fbb;
+    --color-accent-600: #009fbb;
+    --color-accent-700: #009fbb;
+    --color-accent-800: #009fbb;
+    --color-accent-900: #009fbb;
+    --color-light: #efead8;
+    --color-light-200: #efead8;
+    --color-light-300: #efead8;
+    --color-light-400: #efead8;
+    --color-light-500: #efead8;
+    --color-light-600: #efead8;
+    --color-light-700: #efead8;
+    --color-light-800: #efead8;
+    --color-light-900: #efead8;
+    --font-sans: "Arial", sans-serif;
+    --font-serif: "Georgia", serif;
+    --line-height: 1.5;
+    --font-scale: 1.25;
+    --font-size: 1rem;
+    --font-size-1: var(--font-size);
+    --font-size-2: calc( var(--font-size-1) * var(--font-scale) );
+    --font-size-3: calc( var(--font-size-2) * var(--font-scale) );
+    --font-size-4: calc( var(--font-size-3) * var(--font-scale) );
+    --font-size-5: calc( var(--font-size-4) * var(--font-scale) );
+    --font-size-6: calc( var(--font-size-5) * var(--font-scale) );
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  body {
+    font-family: var(--font-sans);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+  }
+  
+  p {
+    line-height: var(--line-heigt);
+  }
+  
+  a {
+    color: var(--color-dark);
+    text-decoration: none;
+    line-height: var(--line-heigt);
+  }
+  a:hover {
+    color: var(--color-accent);
+  }
+  
+  li {
+    line-height: var(--line-heigt);
+  }
+  
+  .link {
+    color: var(--color-accent);
+  }
